@@ -1,0 +1,18 @@
+//next js is greta for performance , it has image component that renders the same photo with multi qualities for defrent screens .
+//next js loads the content while scrolling , next js has a bcak end plugened in it , next js spliting the code to chunks to load it faster  and load just the 
+part that you need from the code .
+//next.js has own Router system included in it .
+// next.js has a implemented bot for SEO optimization .
+//serverless functions that works the server just when you need it and shut it down when finished that .
+//npx is node.js package runner .
+//npx create-next-app to create new next project .
+//npm run dev to start the development server .
+//ls to see your current directory.
+//what is webback ? 
+//there is npm commands you find them on the official site that  updates react and next.js to lastest version .
+//node -v to see the version of node on your computer .
+//img component in next 12 renders img inside span ins=asted of div and this may cause issues in css.
+//you can remove srever : target from next.config.js because its default now .
+//next.js uses rust(swc) inasted of babel comiler and its 17x faster .
+//there is middleware implemented in next for logging in and authentication .
+//
