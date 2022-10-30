@@ -27,4 +27,5 @@ now you have obj named styles is compnent and in every element use it like this 
 //you have to use css modules in next js you cant create normal css file and imported to compnent .
 //mesh gradient web site to give you images  and create it to set them as backgrounds .
 //press /  to get into public folder .
+//create compnents folder , yuo cant set them in pages folder .
 //
