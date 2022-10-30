@@ -15,4 +15,9 @@ part that you need from the code .
 //you can remove srever : target from next.config.js because its default now .
 //next.js uses rust(swc) inasted of babel comiler and its 17x faster .
 //there is middleware implemented in next for logging in and authentication .
+//any js file you create in pages folder will become Router automatically just dont forget to export default the component .
+//dont forget rafce short cut .
+//index js is the default router (home page of the site ).
+//app js is whole proejct (its like index.js in react and index.js is like app in react ).
+//api folder in pages folder is for backend .
 //
