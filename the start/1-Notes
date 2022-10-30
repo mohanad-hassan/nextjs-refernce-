@@ -20,4 +20,5 @@ part that you need from the code .
 //index js is the default router (home page of the site ).
 //app js is whole proejct (its like index.js in react and index.js is like app in react ).
 //api folder in pages folder is for backend .
+//all static assets like photos fonts save it in public folder .
 //
