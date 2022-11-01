@@ -6,6 +6,7 @@
 // how to make nsested Routes ? create a folder inside a page and give it a name  now set index.js to be the deault Route and set normal Routes inside it .
 //to make a dynamic Route its just like the pervious one what changes is just right the name will changes inside [name].js .
 //you can read the dynamic path that showed in the browser up , by hook useRouter 
+//useROuter returns object , and the path in query key .
 //linking to pages : there is two type of pages dynamic and undynamic 
 //there is Link hook from to next to navigate between pages .
 //if you use ANCHOR tag inasted of link it will reload the whole page and it will not be SPA.
