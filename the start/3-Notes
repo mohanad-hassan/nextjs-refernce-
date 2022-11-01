@@ -1,0 +1,6 @@
+//app js   targets the body element .
+//to target html for the whole app just use Documnent compnent and create a new _document.js , it contains Head for the all project , Main for the code you 
+html you wrote in the pages nextScript for next scripts .
+//you targeted html now you can do any thing like add new scripts .
+//in html head link atrribute rel='preload ' tells the browser to load this resource first.
+//
