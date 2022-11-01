@@ -30,4 +30,4 @@ now you have obj named styles is compnent and in every element use it like this 
 //create compnents folder,you cant set them in pages folder.
 //you can use variables you definded them in global css  in all csss modules .
 //there is Head compnent in nextjs that you can use it for  head tag in html .
-//
+//s
