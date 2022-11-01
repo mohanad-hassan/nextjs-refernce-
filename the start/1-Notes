@@ -9,23 +9,25 @@ part that you need from the code .
 //npm run dev to start the development server .
 //ls to see your current directory.
 //what is webback ? 
-//there is npm commands you find them on the official site that  updates react and next.js to lastest version .
-//node -v to see the version of node on your computer .
+//there is npm commands you find them on the official site that  updates react and next.js to lastest version.
+//node -v to see the version of node on your computer.
 //img component in next 12 renders img inside span ins=asted of div and this may cause issues in css.
-//you can remove srever : target from next.config.js because its default now .
-//next.js uses rust(swc) inasted of babel comiler and its 17x faster .
-//there is middleware implemented in next for logging in and authentication .
-//any js file you create in pages folder will become Router automatically just dont forget to export default the component .
-//dont forget rafce short cut .
+//you can remove srever : target from next.config.js because its default now.
+//next.js uses rust(swc) inasted of babel comiler and its 17x faster.
+//there is middleware implemented in next for logging in and authentication.
+//any js file you create in pages folder will become Router automatically just dont forget to export default the component.
+//dont forget rafce short cut.
 //index js is the default router (home page of the site ).
 //app js is whole proejct (its like index.js in react and index.js is like app in react ).
-//api folder in pages folder is for backend .
-//all static assets like photos fonts save it in public folder .
-// next.js has a fast refresh ability that refreshs the part that changes and not the whole app , and you will see refresh sign in the right bottmo .
+//api folder in pages folder is for backend.
+//all static assets like photos fonts save it in public folder.
+// next.js has a fast refresh ability that refreshs the part that changes and not the whole app , and you will see refresh sign in the right bottmo.
 //nextg js uses name.module.css    then to use it   import styled from '../styles/name.module.css'
 now you have obj named styles is compnent and in every element use it like this className={styles.the class name you want }.
 //you have to use css modules in next js you cant create normal css file and imported to compnent .
 //mesh gradient web site to give you images  and create it to set them as backgrounds .
-//press /  to get into public folder .
-//create compnents folder , yuo cant set them in pages folder .
+//press /  to get into public folder.
+//create compnents folder,you cant set them in pages folder.
+//you can use variables you definded them in global css  in all csss modules .
+//there is Head compnent in nextjs that you can use it for  head tag in html .
 //
