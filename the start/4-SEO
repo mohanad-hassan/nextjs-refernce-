@@ -1,0 +1,15 @@
+//SEO   google give you a rank due to visits to your website and the duration of the visits .
+//nextjs is better than react it loads html and show it to user then fetchs javascript , in react javascript loads html its slower and worst for SEO.
+//its prerendering term.
+//if you have bad html code their is websites to organize it on the web , like  codebeauity.org.
+//when you click on view page source , in next it will show the content the server is responsible for loading content , in react it wont because javascript
+is responsible for loading content and this effects a lot for the SEO.
+//STatic generation SSG its for html static pages , next it will store it in servers  CDN near to the user to load it more faster ,HTml is generated at 
+application build time and up to the cdn sever to be their always .
+//ISR incremental static regeneration for update the pages we load ni the previous example and  refresh it .
+//server side rendering SSR  we use use it with conetnt that changes with every new request like news sites that changes every hour .
+//ofcourde SSR is sloer than  SSG and ISR.
+//those are the three ways that next js uses to render .
+// React js uses Client Side Rendering wich means  you can use it when you dont care about SEO like admin dashboards .
+/it has  a SWR library to activate it .
+
