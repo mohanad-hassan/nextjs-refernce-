@@ -1,0 +1,11 @@
+// to add images from api you to define that api in config.js before using it .
+//ssg isr ssr three ways to render the content .
+//with ssg if you dont have external data you dont have to any thing,if it have external data you have to apply function.
+//the function is get static props , you can exported only from pages  , meant for all routes.
+//you will use it in the page , and then use it as props in the compnent of that page.
+//get static props function  works on server side , only runs at build time , wont be incleded in client bundle , 
+on dev mode runs on server and client bundle.
+//https://next-code-elimination.vercel.app/   this web site you wrote a code and it will show the client bundle code .
+//what is not showed on client side , is called on server side .
+//<></>  fragment.
+//
