@@ -8,4 +8,17 @@ on dev mode runs on server and client bundle.
 //https://next-code-elimination.vercel.app/   this web site you wrote a code and it will show the client bundle code .
 //what is not showed on client side , is called on server side .
 //<></>  fragment.
+// get static paths function is for prerender content for dynamic routes , must export from a page , that page also must implement get static props , 
+only runs at build time ,only runs on server side , wont be included in client bundle , on dev mode runs on client and sever side .
+//running function in build time it means that  it runs just one time when calling the website.
+//get static props is like use effect but faster .
+//react without nextjs is so bad for SEO because it sends empty html to client then javascript renders the contetnt  tHAT GOOGLE WONT see any content .
+//nextjs has two forms of prerendering , static generation and server side rendering .
+//the first one static generation gets data from the server just on build time .
+//you use for it  a function called export  async getStaticProps() { return {props: { ...} }}.
+//when you Rclick in brouser and view source code with react app you will see nothing .
+//if you hardcode html code  it will prerender html code and show it in view source code and it will show for search engines.
+//the getstaticprops is loaded then the copmonent .
+//when you use the getstaticprops the data fetch occurs on the server and send it to the client , if you dont use it fetch will occurs in clientbundle 
+wich means data wont be showed to the  search engine and its bad seo.
 //
