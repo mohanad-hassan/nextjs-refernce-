@@ -21,4 +21,7 @@ only runs at build time ,only runs on server side , wont be included in client b
 //the getstaticprops is loaded then the copmonent .
 //when you use the getstaticprops the data fetch occurs on the server and send it to the client , if you dont use it fetch will occurs in clientbundle 
 wich means data wont be showed to the  search engine and its bad seo.
+//differnce between  useEffect and getstatic props that is get static props runs on servers side wich means the data you fetched will shows in the html file 
+you send to the client and  if you use use Effect it will fetch data on clientbundle wich means it wont show in html you send to the client and this is so 
+bad for seo .
 //
