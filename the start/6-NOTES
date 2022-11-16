@@ -1,0 +1,11 @@
+//any code in get static props is implemented in servers side .
+//import fs from 'fs' includes file system from node js , and you cant do it in client side , because client cant acces to node js . 
+//fs.readfile or fs.readfileasync to bring data and use it .
+//npm run start to open your project in client mode and not development mode .
+//so when your project is static  , if you dont have exrenal data you dont have to do any thing and if you have external data you need to use a function 
+called getstaticprops .
+//ISR incremental static generation its like static just you add a automatic refresh to the page , in getstatic props you add to return  a key called 
+revalidate:10 or any seconds you want inasted on 10 .
+//notfound:true   if you use this key in getstaticprops it returns error 404.
+//their redirect key to redirect to another page , as example if you failed to fetch data .
+//
