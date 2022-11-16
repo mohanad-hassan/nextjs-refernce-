@@ -1,0 +1,17 @@
+// its like getstaticprops but we use it for dynamic routes .
+//there is a context parameter in getsstaticprops give a informations , example const {params} = context ,  params.routername you put inside [] to get the 
+params , 
+//the pervious code is semantically right but it will not work , it will give error that you need get static paths function.
+//get static props doesnt work with dynamic route because nextjs dont know any page to prerender and ofcourse it wont prerender all the dynamic routes 
+this is why wee need get static paths .
+//get static paths works just on pages and doesnt work on compnents.
+//we use get static props and get static paths together .
+//getsrtaticpaths() { return {params:{id1:id2}}}.   id 1 is what you wrote in [] and 2 is the dynamic value and you have to write all the dynamic values 
+and also write fallback:false or it will not work .
+//explain the fallback key , it help if you have a lot of dynamic pages that you have ,  what you but in paths will prerender and ready to use , but if you 
+have a lot of products if you do that your application will be to slow , inasted of that you can load just the most visited pages or products , and what 
+is raredly visited will prerender when the user clikc on it , set this fallbacak:true .
+//when you use get static props the page will prerender , and this is why wee nedd getstatic paths.
+//when you set fallback true   if you get to the pdoduct route manually you will have error because it fetch data late in melli seconds ,
+the solution is with set loading spinner until fetch data or fallback:'blocking'.
+//
