@@ -1,0 +1,11 @@
+//export async getserversideprops() {} .
+//you can use in pages only .
+//its ecactly like getstaticprops BUT WORKS IN server and didprerender the pages , it have context params contains a lot of things like params req res.
+//you cant use with dynamic pages and you dont nedd getstatic paths or anyt thing like it because their is no prerendered pages.
+//  finished.
+//in client side rendering you can use useEffect like products pages thar are for speceific customer , and you dont care about SEO.
+//google for useSWR its nextjs hook works as shortcut to fetch data on client side  . its like useEffect 
+//you can use Hooks just in the components direct and not inside functions in that component 
+//SWR refersh the page when you unfocus it 
+//getstaticprops works on client side 
+//
