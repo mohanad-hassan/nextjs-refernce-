@@ -1,0 +1,5 @@
+// you can use nodejs code in getstaticprops because its excuted when building the project.
+//getstaticprosp runs on the client bundle bet before building the project , getserverseidepropos runs on the server and updated automatically .
+//use SWR works like use Effect on client bundlle .
+//get server side props refresh the page when it send request .
+//
