@@ -1,0 +1,7 @@
+//REst Api is normal api where you send request with data and have a respnse with data .
+//Api route we use it like in sign up pages to store data in database and not to have html return .
+// you can store data in database with Post and read it with Get methods .
+//you find it inside pages   its folder called api .
+//there you can add pages  with .js in the end .
+//any code you write in api will never run on client bundle it will run on server side .
+//
