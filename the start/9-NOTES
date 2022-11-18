@@ -2,4 +2,15 @@
 //getstaticprosp runs on the client bundle bet before building the project , getserverseidepropos runs on the server and updated automatically .
 //use SWR works like use Effect on client bundlle .
 //get server side props refresh the page when it send request .
+//in pages you can imoprt Head from next/head and in their you can add titole of page or meta data .
+//<Head></Head> any where inside jsx .
+//appjs is the root file , Component inside indexs to the current page so if you layout something in it it willshows in all pages .
+//so if you use Head in appjs it will shows to all pages of the project .
+//nextjs merges the content of Head in appjs and page compnent , if their is reflex it uses the last value , you can use more than one Head in same page 
+and nextjs will merge all of them together .
+// _appjs represents the main compnent in html page .
+//_document.js represents the document.
+//in document js there is Html Head Main wich presents main next compnent and there you can add html content out side of next js , and you can use them 
+with react  portals .
+//or to add lang to the project .
 //
