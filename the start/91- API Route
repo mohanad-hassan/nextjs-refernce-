@@ -4,4 +4,7 @@
 //you find it inside pages   its folder called api .
 //there you can add pages  with .js in the end .
 //any code you write in api will never run on client bundle it will run on server side .
-//
+// you shouldnt use fetch function inside getStaticProps or getServerSideProps to talk to your own api insated of that you can export function from api , 
+and run it directly in getStaticProps , because they are on the same server you dont have to send a http request.
+//we use that when we need to use data from database to prerender a page on our project .
+//prerener dynamic pages with apiRoute :
