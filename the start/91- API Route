@@ -8,3 +8,7 @@
 and run it directly in getStaticProps , because they are on the same server you dont have to send a http request.
 //we use that when we need to use data from database to prerender a page on our project .
 //prerener dynamic pages with apiRoute :
+//req.query.id to get the path of dynamic route that sends the requset to the api.
+//dont trust client side validation , you should run valdidation functions on your server 
+//run data base codes like mongo db just on server side operations 
+//
