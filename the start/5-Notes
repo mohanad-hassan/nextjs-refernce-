@@ -11,7 +11,7 @@ on dev mode runs on server and client bundle.
 // get static paths function is for prerender content for dynamic routes , must export from a page , that page also must implement get static props , 
 only runs at build time ,only runs on server side , wont be included in client bundle , on dev mode runs on client and sever side .
 //running function in build time it means that  it runs just one time when calling the website.
-//get static props is like use effect but faster .
+//get static props is like use effect but faster and render html then send it to client and you will see that in view page source this is better for seo .
 //react without nextjs is so bad for SEO because it sends empty html to client then javascript renders the contetnt  tHAT GOOGLE WONT see any content .
 //nextjs has two forms of prerendering , static generation and server side rendering .
 //the first one static generation gets data from the server just on build time .
