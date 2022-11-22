@@ -1,0 +1,2 @@
+//important if you use next js Link and use inside a compnent inasted of text , put <a><a> inside Link or it will not work .
+//
