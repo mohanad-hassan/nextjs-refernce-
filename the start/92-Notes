@@ -1,2 +1,4 @@
 //important if you use next js Link and use inside a compnent inasted of text , put <a><a> inside Link or it will not work .
-//
+//be careful with Nextjs link it causes a lot of errors about react Children , it only recieve one children , be careful about white spaces  or empty content 
+it return an error and craches the project .
+
