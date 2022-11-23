@@ -1,4 +1,11 @@
 //important if you use next js Link and use inside a compnent inasted of text , put <a><a> inside Link or it will not work .
 //be careful with Nextjs link it causes a lot of errors about react Children , it only recieve one children , be careful about white spaces  or empty content 
 it return an error and craches the project .
+//in Image compnent their is layout  = 'responsive ' attribute to make the image responsive .
+//their in vs code a md extend  , its for mark down  html , in mark down you can add meta data  as key value pairs like js objects .
+//then you will need npm package its name  gray-matter to read markdown file and split it to content and meta data .
+//in node js cwd() means cuurent working directory .
+//when you use md files even on on the same project server you cant import them like we do with js or json files , you have to use node js 
+and graymatter package to reach and parse the md file .
+//
 
