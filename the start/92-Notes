@@ -7,5 +7,6 @@ it return an error and craches the project .
 //in node js cwd() means cuurent working directory .
 //when you use md files even on on the same project server you cant import them like we do with js or json files , you have to use node js 
 and graymatter package to reach and parse the md file .
+//we use react Portals to render a compnent in the Dom tree of the project and in the dom tree of the current object , to be better for symantic and SEO.
 //
 
