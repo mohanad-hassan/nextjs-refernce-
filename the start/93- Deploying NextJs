@@ -1,0 +1,13 @@
+// standard build with next build commands , needs node js server , you can revalidate to auto refresh .
+//full static build , no need to node js server , api routes dont work , revalidate doesnt work , with command next export that you add manually .
+//React.lazy is builtin automatically in nextJs and you dont have to write it .
+//next.config.js is the file to set the index path Route , a lot of things in nextjs , redirects , Enviroment Variables .
+//phases in next js , build , server , export , development , you can set config.js to return a differnt valuse for every phase .
+// set a test build , when run code npm run next build it will show for you a size of files and this is the client size , and it ignores server side .
+//so if you see any thing red you should resize it , often its because third part packages .
+//when running next build you will see folder next , this wich you need to depoly , nextjs and vercel are for the same company .
+//you have to deploy next js projects on server  that supports node js .
+//when you use github with vercel , and you change your code on github it will redeploy the project automatically .
+//if your repostiry is public , dont put your Enviroment variables in  nextconfig.js , you can put them in vercel .
+//nextImage compnent is side server .
+//
