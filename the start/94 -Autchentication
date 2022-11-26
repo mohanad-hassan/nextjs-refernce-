@@ -1,0 +1,7 @@
+//there is two kind of authentication , implemnted with next js  called server side sessions , type2 is node tokens.
+//SPA works with tokens inasted of sessions  , JWT : json web tokens.
+//we use next auth package and install it to use it , ith some thing like 0Auth .
+//you nedd autcentication state , on server side and client bundle to render a differnt ui if the user is loged in or loged out or signed or not signed .
+//its not best practice to store passwords in data base its better to encrypt them and then you can decrypt them when ever you want .
+//to do that we use a package called bcrypt.
+//
