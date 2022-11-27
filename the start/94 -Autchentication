@@ -12,4 +12,10 @@
 //and theses useSession hoo kis what we use to protect Routes.
 //there is useSession wich have some bugs with loading proerty wich dont load it always , inasted of the there is getSession .
 //getSession is async function that returns a promise , we use with it useState and useEffect.
+//what we did pervious is client side ProtectRoute.
+//ServerSIde protect:in getServerside function   , we use getSessions function to check if we log on or not 
+const session  = getSession({req:context.req})
+if(!session) {return redirect or what ever you want }.
+//window.location.href to navigate to some where ofcourse it refresh the project .
+//router.replace to navigate inside the project.
 //
