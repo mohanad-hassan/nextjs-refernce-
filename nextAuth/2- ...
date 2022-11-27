@@ -1,0 +1,3 @@
+//first install the next-auth package to your project .
+//in api create a auth folder and inside it create [...nextauth].js .
+//
