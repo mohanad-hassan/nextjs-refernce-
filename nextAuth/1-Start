@@ -1,0 +1,14 @@
+//session is a unique id will generated when you visit a web site for first time .
+//cookies is a file that store session and every thing like user name and other thing on client bundle .
+//who creates the session is the server when you send the first request to that server ..
+//session = جلسة.
+//session other name in phpssid.
+//session is stored in server and created in server , cokkies is on clien bundle.
+//session is the old way , it needs servers to store it , hacks can a be a real dangerous .
+//the new way is tokens (JWT) json wenb token.
+//token is like encrypt the data.
+//token will be created as a string when you visit the website for first time , it has expire time and it will be unvalidate ,
+//acces token , refresh token to have a new token , token is inasted of send email and passowrd to server , token will send as meta data .
+//JWT is not for authentication its for authoratization.
+//token or jwt os not stored on server its like a SIGNATURE .
+//
