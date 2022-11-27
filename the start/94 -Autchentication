@@ -4,4 +4,12 @@
 //you nedd autcentication state , on server side and client bundle to render a differnt ui if the user is loged in or loged out or signed or not signed .
 //its not best practice to store passwords in data base its better to encrypt them and then you can decrypt them when ever you want .
 //to do that we use a package called bcrypt.
+//create a auth folder in api folder , create [...nextauth].js .
+//credintials provider means our database .
+//bcrypt has a compare function to compare password with a hashed password wich returns a boolean value.
+//there is seesion cokie wich you see it when you log in and gives a control.
+//wich be deleted if you log out .
+//and theses useSession hoo kis what we use to protect Routes.
+//there is useSession wich have some bugs with loading proerty wich dont load it always , inasted of the there is getSession .
+//getSession is async function that returns a promise , we use with it useState and useEffect.
 //
