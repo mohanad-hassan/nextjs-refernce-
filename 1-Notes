@@ -1,3 +1,4 @@
 //the classes you store in globall css you can use them directly , but the classes you store inside modules you have to use them with style.className.
 //dont use `` to merge class names , use classNames library.
+// in react 18 there is issue that renders the compnent twice , to solve it reactStrictMode: false in next.config.js.
 //
