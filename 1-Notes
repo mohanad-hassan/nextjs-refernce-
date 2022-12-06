@@ -9,4 +9,5 @@ cdn server and fif another user tried to acces to that path it will be fast beca
 //true value may cause errors because the compnent will be mounted before getStatic props and to solve that we use 'blocking ' .
  or we we say if useRouter().isFallback() then return loading and in this way we dont have errors .
  //if you have you cant load static props , its because it cant find the data you want .
+ //in Image compnent you can use || if a src failed looks to  next one .
  //
