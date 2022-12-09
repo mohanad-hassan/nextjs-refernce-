@@ -7,7 +7,11 @@
 //true means that you can acces to a path that is not wroted in path , when the first user sends request tp that path it will be slow , then cached to 
 cdn server and fif another user tried to acces to that path it will be fast because its cached to cdn.
 //true value may cause errors because the compnent will be mounted before getStatic props and to solve that we use 'blocking ' .
- or we we say if useRouter().isFallback() then return loading and in this way we dont have errors .
- //if you have you cant load static props , its because it cant find the data you want .
- //in Image compnent you can use || if a src failed looks to  next one .
- //
+or we we say if useRouter().isFallback() then return loading and in this way we dont have errors .
+//if you have you cant load static props , its because it cant find the data you want .
+//in Image compnent you can use || if a src failed looks to  next one .
+// to ask use for their locations we use GeoLocation Api.
+//console log short cut   clg( {love} )  = clg(love,'love').
+//Note : env local is aviliable only on server side and fetched when building the site , if you want to send requests from the browser you have juse to write 
+NEXT_PUBLIC_then the name and you can do that inside env.local.
+//
