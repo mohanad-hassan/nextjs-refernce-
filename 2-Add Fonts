@@ -1,0 +1,6 @@
+// there is two ways one is old and a new way .
+//the old way sends request to google every time a user opens your site , its by adding Link inside the Head of _document.js.
+//the second way is by npm i @next/font when you use whis way when you deploy your project it sends a requset to the font resource , take it then
+put it on your server , and in this way you dont need to send a reauest to the resource of the font every time.
+//in second way we put the font requset in _app.js.
+//
