@@ -1,4 +1,5 @@
 //to make a Image compnent take the all width and height of its parent give it attribute layout = 'fill' and the parent must be relative .
 //in javaScript there is onError event handler.
 //example of use : if you give a wrong Img src or the API doesnt send the Image to you the this onError will fire inside you can setState to cahnge the imgUrl.
+//in next js there is router events , like do some thing when the navigation router is started , or finished , or paused.
 //
