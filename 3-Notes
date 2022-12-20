@@ -2,4 +2,8 @@
 //in javaScript there is onError event handler.
 //example of use : if you give a wrong Img src or the API doesnt send the Image to you the this onError will fire inside you can setState to cahnge the imgUrl.
 //in next js there is router events , like do some thing when the navigation router is started , or finished , or paused.
+//note : when you refresh your project your__app.jswill refresh ,also when youroute manually by writing the path it will refresh , when you Route automatically it wont
+refresh.
+//their is a reactModal that contains a modals builded with React.
+//if reactModal close is not working checl the width and height of overlay if you add external css to the modal.
 //
