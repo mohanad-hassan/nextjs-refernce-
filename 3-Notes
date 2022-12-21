@@ -6,4 +6,6 @@
 refresh.
 //their is a reactModal that contains a modals builded with React.
 //if reactModal close is not working checl the width and height of overlay if you add external css to the modal.
+//in css modules their is a term called composes , let use a class inside a class .
+//router.isfallback is a boolean value , when ISR fallback is true and searching for uncached page on the cdn .
 //
