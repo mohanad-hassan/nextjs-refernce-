@@ -8,4 +8,4 @@ refresh.
 //if reactModal close is not working checl the width and height of overlay if you add external css to the modal.
 //in css modules their is a term called composes , let use a class inside a class .
 //router.isfallback is a boolean value , when ISR fallback is true and searching for uncached page on the cdn .
-//
+//Note : for not using all the quota of free API use a boolean value in env.local , and when you are in dev mode dont fetch from api
