@@ -3,9 +3,15 @@
 part that you need from the code .
 //next.js has own Router system included in it .
 // next.js has a implemented bot for SEO optimization .
+//nextjs builds the website on server side , react do that on clientside , if you open page source in react you will see a empty page.
+//react is so bad for seo 
+//react supported server side rendering but its so hard and complex  to implement that .
+//supports file based routing , react doenst have a router its external library .
 //serverless functions that works the server just when you need it and shut it down when finished that .
 //npx is node.js package runner .
 //npx create-next-app to create new next project .
+//next js is fullstack frame work that contains api inside it .
+//next doenst contain html page in public folder , because its rendered on the server .
 //npm run dev to start the development server .
 //ls to see your current directory.
 //what is webback ? 
