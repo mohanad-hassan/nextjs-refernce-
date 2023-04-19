@@ -1,0 +1,12 @@
+// reactjs is front end library that executes all of its code on client side , wich means viewPage Source will be empty  and this is so Bad for SEO .
+//useEffect send fetch requests on clientSide and this will be slow .
+//nextjs prernder the pages on the server and make it ready and when a user request the project , it will send the html css js code to the client , and this 
+is so great for SEO and from that point you will have a SPA   React will take the mission from there to inter act with the user .
+//we have Two PreRendering Methods  : 1/STATIC GENERATION  with this choice it will build the html pages during the application run build before deploying .
+2/SEREVER SIDE ERENDERING   with this choice the pages will be called when the user calls a request to the nextjs server .
+
+//1/STATIC GENERATION with getStaticProps()  with this choice your pages will be served on a cdn Server .
+//getStaticProps () we can use in Pages Only  , not in normal Components .
+//any code you write in this function  , will not be send to the client side , it will stay on the server .
+//IMPORTANT : by default nextjs Prerender all the pages  that doesnt contain dynamic data , automatically on server .
+//
