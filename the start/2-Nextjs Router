@@ -4,16 +4,38 @@
 //creatin a js file in pages folder makes it a Router .
 //rules of Routing : the js file must be a react component , the component must be exported by default.
 //if ypu try to open un excest page it will return 404 Error.
+//nextjs searches for static Routes before Dynamic Routes .
 // how to make nsested Routes ? create a folder inside a page and give it a name  now set index.js to be the deault Route and set normal Routes inside it .
 //to make a dynamic Route its just like the pervious one what changes is just right the name will changes inside [name].js .
 //you can read the dynamic path that showed in the browser up , by hook useRouter 
 //useROuter returns object , and the path in query key .
+//import {useRouter} from 'next/router' . returns object contains the name you put in [fileName] ,also returns pathname.
+//const router  = useRouter() ,, router.query returns that id .
+//you can also set dynamic folders that contains dynamic Routes .
+//router.query returns object contains all dynamic Routes for the current Route as a tree .
 //linking to pages : there is two type of pages dynamic and undynamic .
+//catch AllRoutes [...name.js] this supports many dynamic routes , for example  blog/love  , blog/2023/love .
 //there is Link hook from to next to navigate between pages .
+Syntax 1 :     <Link
+              href={{
+                pathname: '/clients/[id]',
+                query: { id: client.id },
+              }}
+            >
+              {client.name}
+            </Link>
+            
+  Syntax 2 :                <Link href="/clients">Clients</Link>
+
 //if you use ANCHOR tag inasted of link it will reload the whole page and it will not be SPA.
 //the syntax is exactly like ANCHOR just wite Link.
 //syntax :<Link href='/'> back to home </Link>.
 //there is a lot of props for Link hook like href   scroll its boolean responsed of take the page scrool to the top after navigating from it default is true.
 //to link to nondsynamic pages just write its name .
 //for nested Routing we have to set folders in Pages Folder .
-//
+// NAVIGATE PROGRAMITICALLY :
+const router = useRouter ()
+router.push('/something') it will navigate immeditely .
+// 404PAGE 
+just in pages Folder set 404.js file and next will return that file for every unFound Request .
+
