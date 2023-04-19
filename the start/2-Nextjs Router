@@ -39,3 +39,5 @@ router.push('/something') it will navigate immeditely .
 // 404PAGE 
 just in pages Folder set 404.js file and next will return that file for every unFound Request .
 
+//SHALLOW is for Routing without lose States and without running getstaticProps , or getServerSideProps .
+
