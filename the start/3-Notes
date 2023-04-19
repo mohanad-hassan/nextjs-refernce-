@@ -3,4 +3,10 @@
 html you wrote in the pages nextScript for next scripts .
 //you targeted html now you can do any thing like add new scripts .
 //in html head link atrribute rel='preload ' tells the browser to load this resource first.
+//nextjs supports  react-styled-components .
+//css modules is for create a css file for a react compnent and doesnt effect any other thing .
+//import styles from 'random css module '
+lets say this css module have a classStyling called .item{.....}  .
+now when compiling this .item will be changed to a crypted name , so to reach to that name we have to write , styles.item 
+if you we write 'item ' this will have no effect .
 //
