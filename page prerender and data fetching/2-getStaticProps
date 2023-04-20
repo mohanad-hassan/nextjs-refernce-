@@ -3,8 +3,8 @@
 //just be aware that http requests are sended in client side after the page is loaded .
 //this is why we neثd getStaticProps () to send http request and fetch data before rendering the Page on the screen .
 //so now we know that nextjs , make any static html code  , and store prernder it on server automatically , when we have http requsts we use getStaticProps 
-to fetch data and implemented it to the Page before rendreing it on client side .
-//so nextjs  , executes getStaticProps then send the image to the client .
+ instead of useEffesct to fetch data and implemented it to the Page before rendreing it on client side .
+//so nextjs  , executes getStaticProps then send the page to the client .
 // notice that the code in getStaticProps will never be visible on client side .
 // we have to return object  contains object its name "props" that contains what we want to return .
 // in getStaticProps you can write serverside code becaues the client cant see that like creditnilas  , 
