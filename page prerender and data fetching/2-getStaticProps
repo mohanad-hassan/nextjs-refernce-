@@ -1,4 +1,5 @@
 //we have to call it in a Page , not in normalk component .
+// SSR server static generation  ,   next works with SSR and ISR with revalidate . (we will explain later)
 //just be aware that http requests are sended in client side after the page is loaded .
 //this is why we neثd getStaticProps () to send http request and fetch data before rendering the Page on the screen .
 //so now we know that nextjs , make any static html code  , and store prernder it on server automatically , when we have http requsts we use getStaticProps 
