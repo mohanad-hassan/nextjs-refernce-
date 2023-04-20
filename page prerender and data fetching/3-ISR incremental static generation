@@ -1,0 +1,27 @@
+// its works with getStaticProps() to rerun this function if a X Time passed from the last request for the page .
+// to activate it we  write a getStaticPorps()  with REVALIDATE  with Seconds .
+//notice that in dev mode  with every refresh to the page  getStaticProps() will execute again , we can see that if we clg in getStaticProps ()
+//to see the effect of ISR you have to try it in production mode with npm run start .
+//getStaticProps () is too  fast if we compare it with  useEffect ().
+//export async getStaticProps(context) {this context parameter holds a lot of inormations about the page like Params for example }.
+//in the returned object from getStaticProps there is  props , reavalidate , notFound :boolean , if its true it will return 404page we need when like 
+if we failed to fetch the data .
+//also we can {props: {},
+notFound:true
+redirect:{destination:'/'} } ,  that we can return in getStaticProps  object , maybe we can use it if we failed to fetch the data .
+//
+
+export async function getStaticProps() {
+  const res = await fetch('https://.../posts')
+  const posts = await res.json()
+
+  return {
+    props: {
+      posts,
+    },
+    // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every 10 seconds
+    revalidate: 10, // In seconds
+  }
+}
