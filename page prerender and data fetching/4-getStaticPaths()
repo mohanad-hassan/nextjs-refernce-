@@ -9,7 +9,7 @@ with fallback:true  , it will prernder the page with id you write whsen a reques
 //with true if we have error , we set in component  if (!props.id) return ...loading .
 //or we can write instead of  true a   "blocking"  will wait to avoid that loading problem .
 //we use true when we want to hold the loading  ourselfes . like a spinner loading .
-//
+//always remember that , getStaicpaths works only with getStaicProps () .
 
 // pages/posts/[id].js
 
