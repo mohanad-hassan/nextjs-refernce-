@@ -8,4 +8,11 @@ to fetch data and implemented it to the Page before rendreing it on client side 
 // we have to return object  contains object its name "props" that contains what we want to return .
 // in getStaticProps you can write serverside code becaues the client cant see that like creditnilas  , 
 or like node fileSystem wich cant work in client side .
-// notice that getStaticProps() runs just once when you RUN BUILD command  , so what we 
+//when you do some thing like import fs from 'fs '  nextjs knows that this server code you want to use in getStaticProps () so it wont execute on client Side .
+//notice that you can work with nodejs fileSystem in getStaticProps () wich is some thing we cant do on clientside .
+// notice that getStaticProps() runs just once when you RUN BUILD command  , so what we  do if the data we fetch changed .
+//solution 1 : fetch data with use Effect ().
+//solution 2 :  RUN BUILD command again .
+//solution 3 : ISR incremental static generation , it means that server will rerun getStaticProps() automatically again if X Time passed from the 
+last request for the page .
+
