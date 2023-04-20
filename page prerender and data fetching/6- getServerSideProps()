@@ -1,0 +1,13 @@
+// nextjs have two type of  prerendering  , Staic , and Server Side Rendering .
+//Static contains SSR and ISR .
+// in getStaticProps() we dont have access to the requset the user sends .
+//so we  need server  rendering , like when want to see the users jwt , or query  .... .
+//so we have getServerSideProps() wich is a function will be executed  on the server  not on the client side , it will be executed with every request the users 
+hit .
+//the return object is exactly like getStaticProps() just revalidate is not exccest .
+// in contex parameter in getServersideProps () we have .
+// with getServerSidePorps ()  the pages wont be prerendered  because it need data from server with every request .
+const {params,req,res} = context ,  so we can manipulate  the req and res values and headers .
+// Λ λ this sembol in means that the page doesnt prernder  (this case happens when you use getServerSideProps ()) .
+// white circle means the page is prernderd with content , empty circle means that the page was prerndered without content .
+//
