@@ -1,0 +1,7 @@
+// we dont need all data to prernder  or to be rendering on serversSide .
+// like in dashboards  , or  order pages in ecommerce .
+//we set the client side fetching with useEffect () or fetch () .
+// SWR stands for stale while revalidate . 
+// is inasted of useEffect and manuall fetch  , just  have a lot of features .
+// npm i swr .
+//const {data,error} = useSwr('url')
