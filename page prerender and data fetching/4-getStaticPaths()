@@ -1,1 +1,35 @@
+// notice that you cant use useRouter to get the params in getStaticProps (), instead we use  const {params} = context ;
+//what if we have a dynamic pages [] , how nextjs will prernder them with the content and make them static !!! this is where we need getStaticPaths().
+//we tell nextjs wich  ids to prernder for the dynamic page .
+//when you give a paths for getStaticPaths () nextjs will call getStaticProps () for every path of that paths .
+//FALLBACK : it helps you if have a lot of pages to be prernder , lets say you have million product its not right to prernder all he products , 
+we can prernder the most visited products .
+//if we set FallBack : false   it will send 404 if you request to id that you didnt write , 
+with fallback:true  , it will prernder the page with id you write whsen a request is sent , but it will take more time because the page is not prerndered .
+//with true if we have error , we set in component  if (!props.id) return ...loading .
+//or we can write instead of  true a   "blocking"  will wait to avoid that loading problem .
+//we use true when we want to hold the loading  ourselfes . like a spinner loading .
 //
+
+// pages/posts/[id].js
+
+// Generates `/posts/1` and `/posts/2`
+export async function getStaticPaths() {
+  return {
+    paths: [{ params: { id: '1' } }, { params: { id: '2' } }],
+    fallback: false, // can also be true or 'blocking'
+  }
+}
+
+// `getStaticPaths` requires using `getStaticProps`
+export async function getStaticProps(context) {
+  return {
+    // Passed to the page component as props
+    props: { post: {} },
+  }
+}
+
+export default function Post({ post }) {
+  // Render post...
+}
+The getStaticPaths A
