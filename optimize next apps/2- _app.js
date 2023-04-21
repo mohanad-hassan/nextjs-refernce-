@@ -1,3 +1,4 @@
+//we have to set in pages folder .
 // this file is the root app content wich will renders every compnent in the project .
 //you can wrap a navbar for the whole project in this file .
 //the Head you set here will be used for the whole project .
