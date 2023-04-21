@@ -1,0 +1,13 @@
+//  there is a lot of big size images  with mp .
+//we have to optimize them with nextjs .
+//when we use Image component  will preprare a lot of versions of that image , and send them due to  client devices like phone tablet labtop pc .
+//you have to set width and height  for Image component .
+//for chrome it changes jpeg format to webp .
+//it reduces size from arround 36 mp to 20 kb with the same resulution .
+//Image makse pictures lazy loaded , wich mean they wont be loaded untill user scroll . so IMPORTANT .
+the images you put in Image will be in .next /cached  when npm run build .
+EXAMPLE :
+// import Image from 'next/image'
+< Image src = {'/'} width ={} height = {}  /> this width and height detrminas the width and height will be fetched , the final result will be with css styles .
+//also their is a lot of more  attributes , .
+//
