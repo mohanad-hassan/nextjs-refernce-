@@ -41,3 +41,9 @@ just in pages Folder set 404.js file and next will return that file for every un
 
 //SHALLOW is for Routing without lose States and without running getstaticProps , or getServerSideProps .
 
+//Note if your Link doesnt contatin a text  , lets say it contains react component   , it wont work  unless you write this syntax 
+<Link>
+<a> 
+<Component />
+</a>
+</Link>
