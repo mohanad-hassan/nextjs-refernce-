@@ -1,0 +1,16 @@
+// API apllication programmig interface .
+// REST API is specefic form/structure of web API's .
+// the most common returns from rest api servers is Json format .
+// they are about  sending and receving data .
+// so API Routes : are URLS that doenst  return pages(html) instead provide REST API  .
+// in pages folder  we create  a subfloder named "api" .
+//the code we write in api files will never end in client side , because its server side code .
+// locaalhost:3000/api/filename  to trigeer the api from your local machine .
+//
+
+example : "handler' is just a random name .
+function handler(req, res) {
+    res.json({status:'succes'})
+}
+
+export default handler 
