@@ -46,4 +46,6 @@ just in pages Folder set 404.js file and next will return that file for every un
 <a> 
 <Component />
 </a>
-</Link>
+</Link> 
+//this aproach is there to make any html element a link .
+//
