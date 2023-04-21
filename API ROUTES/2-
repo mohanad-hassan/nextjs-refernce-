@@ -1,0 +1,16 @@
+// its too dangerous to talk to database from client side because you will set the credentials of database on client side and any one can reach them .
+// from your next project in pages , we write the url like this  '/api/...' .
+// we can use getSeverSidePorps with api Server , to bring data from server and then passed to the component by getServerSideProps() or with getStaticProps().
+//we can import functions from /api and use them insdide getStaticProps() and  getServerSideProps() . you have to export them noramally .
+//only the API main function you have to export by default .
+//we can set dynamic Routes in /api  by [].
+//api Router system is exactly like Pages Router .
+//const {id} = req.query.id    if we set file name [id].js .
+//function.bind() in js prepares a function for future execution .
+// also we can use catch all routes  [...any] .
+//in nextjs if we have file with names ,    id.js  , [id.js]  nextjs uses the id.js because its more specefic .
+// also you can set index.js in api and api/subfolders .
+//NOTE  nextjs when deploying takes all the pages  and folders and components to the root of next project .(not sure )
+// with nextjs we dont need express js because nextjs features handles every thing and has its own server .
+//
+ 
